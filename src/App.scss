@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased !important;
+  background: #e1dee2;
+}
+
+.App {
+  .background {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 0;
+    background: #259587;
+  }
+
+  .root {
+    padding: 50px 100px;
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+  }
+
+  .card {
+    display: flex;
+    height: calc(100vh - 100px);
+  }
+}
